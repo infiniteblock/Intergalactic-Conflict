@@ -96,9 +96,6 @@ recipes.addShapedMirrored("Empty Air Canister",
 [[<minecraft:iron_bars>, <minecraft:wool>, <minecraft:iron_bars>],
 [<techguns:itemshared:56>, <warpdrive:component:14>, <techguns:itemshared:56>], 
 [<minecraft:iron_bars>, <minecraft:wool>, <minecraft:iron_bars>]]);
-// String from root and Green Dye Smelt recipes
-recipes.addShapeless("Make String", <minecraft:string>, [<biomesoplenty:plant_1:9>]);
-furnace.addRecipe(<biomesoplenty:green_dye>, <minecraft:leaves2:1>);
 
 // *** Chunkloading through plugins only
 recipes.remove(<mekanism:anchorupgrade>);
