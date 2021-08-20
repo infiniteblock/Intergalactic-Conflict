@@ -1,0 +1,11 @@
+{
+  "inventory": {
+    "0:0": "techguns:handcannon,1,0,{ammo:1s,ammovariant:\"default\",camo:0b}",
+    "1:1": "powersuits:powerarmor_legs,1,0,{MMModItem:{commonValues:{},render:{mps_pantaloons.leg1:{part:\"leg1\",model:\"mps_pantaloons\"},mps_pantaloons.leg2:{part:\"leg2\",model:\"mps_pantaloons\"},texSpec:{part:\"legs\",model:\"default_armorskin\"},colours:[I;-1,-15642881]}}}",
+    "1:0": "powersuits:powerarmor_feet,1,0,{MMModItem:{commonValues:{},render:{mps_boots.boots2:{part:\"boots2\",model:\"mps_boots\"},texSpec:{part:\"feet\",model:\"default_armorskin\"},mps_boots.boots1:{part:\"boots1\",model:\"mps_boots\"},colours:[I;-1,-15642881]}}}",
+    "1:3": "powersuits:powerarmor_head,1,0,{MMModItem:{commonValues:{},render:{mps_helm.helm_tube_entry1:{part:\"helm_tube_entry1\",model:\"mps_helm\"},mps_helm.helm_tube_entry2:{part:\"helm_tube_entry2\",model:\"mps_helm\"},mps_helm.helm_tubes:{part:\"helm_tubes\",model:\"mps_helm\"},mps_helm.helm_main:{part:\"helm_main\",model:\"mps_helm\"},mps_helm.visor:{part:\"visor\",model:\"mps_helm\"},texSpec:{part:\"head\",model:\"default_armorskin\"},colours:[I;-1,-15642881]}}}",
+    "0:8": "techguns:itemshared,32",
+    "1:2": "powersuits:powerarmor_torso,1,0,{MMModItem:{commonValues:{},render:{mps_arms.arms2:{part:\"arms2\",model:\"mps_arms\"},mps_chest.backpack:{part:\"backpack\",model:\"mps_chest\"},mps_chest.crystal_belt:{part:\"crystal_belt\",model:\"mps_chest\"},mps_arms.arms3:{part:\"arms3\",model:\"mps_arms\"},mps_chest.chest_main:{part:\"chest_main\",model:\"mps_chest\"},mps_chest.belt:{part:\"belt\",model:\"mps_chest\"},texSpec:{part:\"chest\",model:\"default_armorskin\"},mps_arms.crystal_shoulder_1:{part:\"crystal_shoulder_1\",model:\"mps_arms\"},mps_chest.polySurface36:{part:\"polySurface36\",model:\"mps_chest\"},mps_arms.crystal_shoulder_2:{part:\"crystal_shoulder_2\",model:\"mps_arms\"},jetpack.jetpack_glow:{part:\"jetpack_glow\",model:\"jetpack\"},mps_chest.chest_padding:{part:\"chest_padding\",model:\"mps_chest\"},jetpack.jetpack5:{part:\"jetpack5\",model:\"jetpack\"},colours:[I;-1,-15642881]}}}",
+    "0:1": "spartanweaponry:halberd_iron"
+  }
+}
