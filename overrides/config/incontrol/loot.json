@@ -1,0 +1,9 @@
+[
+	{
+		"mob": "thebetweenlands:dark_druid",
+		"remove": "thebetweenlands:swamp_talisman:1",
+		"remove": "thebetweenlands:swamp_talisman:2",
+		"remove": "thebetweenlands:swamp_talisman:3",
+		"remove": "thebetweenlands:swamp_talisman:4"
+	}
+]

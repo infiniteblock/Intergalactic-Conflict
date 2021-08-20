@@ -1,0 +1,386 @@
+// ****** Galactic Drive Mob Spawning Definitions ******
+// This contains definitions for spawn.json to use
+// ONLY weights and min/max groups defined here
+[
+  // ****** Planetary mob distribution ******
+  //Each parasite has venus defined as a spawn
+  //wherever it is placed here. Some native NPCs
+  //are defined to change weights/group sizes.
+  //
+  // *** Global Solar System spawns ***
+  {
+    "dimension": ["0","-1","17","111","112","-127","4598"],
+    "mobs": [
+      {
+        "mob": "srparasites:carrier_heavy",
+        "weight": 1,
+        "groupcountmin": 1,
+        "groupcountmax": 1
+      },
+      {
+        "mob": "srparasites:carrier_flying",
+        "weight": 1,
+        "groupcountmin": 1,
+        "groupcountmax": 1
+      },
+      {
+        "mob": "srparasites:rupter",
+        "weight": 15,
+        "groupcountmin": 3,
+        "groupcountmax": 8
+      },
+      {
+        "mob": "srparasites:anc_dreadnaut",
+        "weight": 1,
+        "groupcountmin": 1,
+        "groupcountmax": 1
+      }
+    ]
+  },
+  // *** ROIKA ***
+  // *************
+  {
+    "dimension": -500,
+    "mobs": [
+      {
+        "mob": "minecraft:villager_golem",
+        "weight": 12,
+        "groupcountmin": 1,
+        "groupcountmax": 1
+      }
+    ]
+  },
+  // *** VENUS | PARASITE HIVE ***
+  // *****************************
+  {
+    "dimension": 4598,
+    "mobs": [
+      {
+        "mob": "srparasites:beckon_sii",
+        "weight": 10,
+        "groupcountmin": 1,
+        "groupcountmax": 1
+      },
+      {
+        "mob": "srparasites:ada_bolster",
+        "weight": 15,
+        "groupcountmin": 1,
+        "groupcountmax": 1
+      },
+      {
+        "mob": "srparasites:warden",
+        "weight": 15,
+        "groupcountmin": 1,
+        "groupcountmax": 3
+      },
+      {
+        "mob": "srparasites:bomber_light",
+        "weight": 15,
+        "groupcountmin": 2,
+        "groupcountmax": 5
+      }
+    ]
+  },
+  // *** EARTH ***
+  // *************
+  {
+    "dimension": 0,
+    "mobs": [
+      {
+        "mob": "techguns:zombiefarmer",
+        "weight": 20,
+        "groupcountmin": 1,
+        "groupcountmax": 6
+      },
+      {
+        "mob": "techguns:zombieminer",
+        "weight": 20,
+        "groupcountmin": 1,
+        "groupcountmax": 6
+      },
+      {
+        "mob": "techguns:zombiesoldier",
+        "weight": 20,
+        "groupcountmin": 1,
+        "groupcountmax": 4
+      },
+      {
+        "mob": "techguns:skeletonsoldier",
+        "weight": 20,
+        "groupcountmin": 1,
+        "groupcountmax": 4
+      },
+      {
+        "mob": "techguns:bandit",
+        "weight": 25,
+        "groupcountmin": 2,
+        "groupcountmax": 4
+      },
+      {
+        "mob": "techguns:psychosteve",
+        "weight": 2,
+        "groupcountmin": 1,
+        "groupcountmax": 1
+      }
+    ]
+  },
+  {
+    "dimension": ["0","4598"],
+    "mobs": [
+      {
+        "mob": "srparasites:ada_summoner",
+        "weight": 25,
+        "groupcountmin": 1,
+        "groupcountmax": 2
+      },
+      {
+        "mob": "srparasites:overseer",
+        "weight": 20,
+        "groupcountmin": 1,
+        "groupcountmax": 1
+      }
+    ]
+  },
+  // *** MERCURY ***
+  // ***************
+  {
+    "dimension": ["-1","4598"],
+    "mobs": [
+      {
+        "mob": "srparasites:ada_arachnida",
+        "weight": 5,
+        "groupcountmin": 1,
+        "groupcountmax": 1
+      },
+      {
+        "mob": "srparasites:ada_yelloweye",
+        "weight": 8,
+        "groupcountmin": 1,
+        "groupcountmax": 3
+      }
+    ]
+  },
+  {
+    "dimension": -1,
+    "mobs": [
+      {
+        "mob": "techguns:zombiepigmansoldier",
+        "weight": 26,
+        "groupcountmin": 1,
+        "groupcountmax": 6
+      },
+      {
+        "mob": "mowziesmobs:naga",
+        "weight": 8,
+        "groupcountmin": 1,
+        "groupcountmax": 1
+      },
+      {
+        "mob": "lycanitesmobs:afrit",
+        "weight": 12,
+        "groupcountmin": 1,
+        "groupcountmax": 1
+      },
+      {
+        "mob": "lycanitesmobs:volcan",
+        "weight": 3,
+        "groupcountmin": 1,
+        "groupcountmax": 1
+      }
+    ]
+  },
+  // *** ATUM ***
+  // ************
+  {
+    "dimension": ["17","4598"],
+    "mobs": [
+      {
+        "mob": "srparasites:vigilante",
+        "weight": 4,
+        "groupcountmin": 1,
+        "groupcountmax": 2
+      },
+      {
+        "mob": "srparasites:ada_manducater",
+        "weight": 6,
+        "groupcountmin": 2,
+        "groupcountmax": 4
+      }
+    ]
+  },
+  {
+    "dimension": 17,
+    "mobs": [
+      {
+        "mob": "atum:brigand",
+        "weight": 18,
+        "groupcountmin": 3,
+        "groupcountmax": 6
+      },
+      {
+        "mob": "atum:barbarian",
+        "weight": 18,
+        "groupcountmin": 2,
+        "groupcountmax": 4
+      },
+      {
+        "mob": "lycanitesmobs:cryptkeeper",
+        "weight": 24,
+        "groupcountmin": 1,
+        "groupcountmax": 1
+      },
+      {
+        "mob": "lycanitesmobs:roc",
+        "weight": 6,
+        "groupcountmin": 1,
+        "groupcountmax": 2
+      },
+      {
+        "mob": "lycanitesmobs:sutiramu",
+        "weight": 8,
+        "groupcountmin": 2,
+        "groupcountmax": 4
+      }
+    ]
+  },
+  // *** TROPICS ***
+  // ***************
+  {
+    "dimension": ["-127","4598"],
+    "mobs": [
+      {
+        "mob": "srparasites:ada_reeker",
+        "weight": 5,
+        "groupcountmin": 1,
+        "groupcountmax": 2
+      },
+      {
+        "mob": "srparasites:ada_longarms",
+        "weight": 8,
+        "groupcountmin": 1,
+        "groupcountmax": 1
+      }
+    ]
+  },
+  {
+    "dimension": -127,
+    "mobs": [
+      {
+        "mob": "mowziesmobs:foliaath",
+        "weight": 13,
+        "groupcountmin": 1,
+        "groupcountmax": 2
+      },
+      {
+        "mob": "lycanitesmobs:feradon",
+        "weight": 22,
+        "groupcountmin": 3,
+        "groupcountmax": 6
+      },
+      {
+        "mob": "lycanitesmobs:arisaur",
+        "weight": 6,
+        "groupcountmin": 2,
+        "groupcountmax": 4
+      },
+      {
+        "mob": "lycanitesmobs:aspid",
+        "weight": 10,
+        "groupcountmin": 1,
+        "groupcountmax": 3
+      },
+      {
+        "mob": "lycanitesmobs:chupacabra",
+        "weight": 10,
+        "groupcountmin": 1,
+        "groupcountmax": 2
+      },
+      {
+        "mob": "lycanitesmobs:herma",
+        "weight": 4,
+        "groupcountmin": 2,
+        "groupcountmax": 4
+      },
+      {
+        "mob": "lycanitesmobs:triffid",
+        "weight": 1,
+        "groupcountmin": 1,
+        "groupcountmax": 1
+      }
+    ]
+  },
+// *** GLACIA ***
+// **************
+  {
+    "dimension": 111,
+    "mobs": [
+      {
+        "mob": "mowziesmobs:frostmaw",
+        "weight": 8,
+        "groupcountmin": 1,
+        "groupcountmax": 1
+      },
+      {
+        "mob": "srparasites:ada_longarms",
+        "weight": 16,
+        "groupcountmin": 1,
+        "groupcountmax": 1
+      },
+      {
+        "mob": "srparasites:ada_yelloweye",
+        "weight": 10,
+        "groupcountmin": 1,
+        "groupcountmax": 3
+      },
+      {
+        "mob": "lycanitesmobs:maug",
+        "weight": 24,
+        "groupcountmin": 5,
+        "groupcountmax": 6
+      },
+      {
+        "mob": "lycanitesmobs:frostweaver",
+        "weight": 14,
+        "groupcountmin": 1,
+        "groupcountmax": 1
+      }
+    ]
+  },
+  // *** HILUND ***
+  // **************
+  {
+    "dimension": 112,
+    "mobs": [
+      {
+        "mob": "srparasites:ada_reeker",
+        "weight": 16,
+        "groupcountmin": 1,
+        "groupcountmax": 1
+      },
+      {
+        "mob": "srparasites:warden",
+        "weight": 8,
+        "groupcountmin": 1,
+        "groupcountmax": 1
+      },
+      {
+        "mob": "lycanitesmobs:geist",
+        "weight": 26,
+        "groupcountmin": 1,
+        "groupcountmax": 1
+      },
+      {
+        "mob": "lycanitesmobs:kobold",
+        "weight": 6,
+        "groupcountmin": 1,
+        "groupcountmax": 1
+      },
+      {
+        "mob": "lycanitesmobs:calpod",
+        "weight": 14,
+        "groupcountmin": 2,
+        "groupcountmax": 5
+      }
+    ]
+  }
+]
