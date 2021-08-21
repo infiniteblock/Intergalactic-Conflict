@@ -1,0 +1,190 @@
+{
+    "images": {
+		"title": {
+            "image" : "mainmenu:logo.png",
+            "posX" : 50,
+            "posY" : 0,
+            "width" : 250,
+            "height" : 120,
+            "alignment" : "top_left"
+        }
+	},
+    
+    "buttons": {     
+		"singleplayer": {
+            "text" : "Singleplayer",
+			"normalTextColor" : 12303291,
+			"hoverTextColor" : 3125670,
+			"texture" : "mainmenu:btn.png",
+            "posX" : 100,
+            "posY" : -10,
+            "width" : 153,
+            "height" : 20,
+			"imageWidth" : 100,
+			"imageHeight" : 50,
+			"alignment" : "left_center",
+            "action" : 
+            {
+                "type" : "openGui",
+                "gui" : "singleplayer"
+            }
+        },		
+
+		"multiplayer":
+        {
+            "text" : "Multiplayer",			
+			"normalTextColor" : 12303291,
+			"hoverTextColor" : 3125670,
+			"texture" : "mainmenu:btn.png",
+            "posX" : 100,
+            "posY" : 10,
+            "width" : 153,
+            "height" : 20,
+			"imageWidth" : 100,
+			"imageHeight" : 50,
+			"alignment" : "left_center",
+            "action" : 
+            {
+                "type" : "openGui",
+                "gui" : "multiplayer"
+            }
+        },
+        "discord":
+        {
+            "text" : "Discord",
+			"normalTextColor" : 12303291,
+			"hoverTextColor" : 3125670,
+			"texture" : "mainmenu:btn.png",
+            "posX" : 100,
+            "posY" : 30,
+            "width" : 153,
+            "height" : 20,
+			"imageWidth" : 100,
+			"imageHeight" : 50,
+			"imageWidth" : 100,
+			"imageHeight" : 50,
+			"alignment" : "left_center",
+            "action" : {
+                "type": "openLink",
+                "link" : "https://discord.gg/aVMHdThz3R"
+            }
+        },
+		"options":
+        {
+            "text" : "Options",
+			"normalTextColor" : 12303291,
+			"hoverTextColor" : 3125670,
+			"texture" : "mainmenu:btn.png",
+            "posX" : 100,
+            "posY" : 50,
+            "width" : 153,
+            "height" : 20,
+			"imageWidth" : 100,
+			"imageHeight" : 50,
+			"alignment" : "left_center",
+            "action" : 
+            {
+                "type" : "openGui",
+                "gui" : "options"
+            }
+        },
+		
+		"mods":
+        {
+            "text" : "Mods",
+			"normalTextColor" : 12303291,
+			"hoverTextColor" : 3125670,
+			"texture" : "mainmenu:btn.png",
+            "posX" : 100,
+            "posY" : 70,
+            "width" : 153,
+            "height" : 20,
+			"imageWidth" : 100,
+			"imageHeight" : 50,
+			"alignment" : "left_center",
+            "action" : 
+            {
+                "type" : "openGui",
+                "gui" : "mods"
+            }
+        },
+                    
+        "quit":
+        {
+            "text" : "Quit",
+			"normalTextColor" : 16729156,
+			"hoverTextColor" : 14483456,
+			"texture" : "mainmenu:btn.png",
+            "posX" : 100,
+            "posY" : 90,
+            "width" : 153,
+            "height" : 20,
+			"imageWidth" : 100,
+			"imageHeight" : 50,
+			"alignment" : "left_center",
+			"hoverText" : "No! Don't leave!",
+            "action" : 
+            {
+                "type" : "quit"
+            }
+        }
+	},
+
+        "labels": {
+			
+        "packTxt":
+        {
+            "text" : "Intergalactic Conflict - 0.1",
+            "posX" : -198,
+            "posY" : -36,
+            "color" : -1,
+            "alignment" : "bottom_right"
+        },
+
+        "copyrightmodpack": {
+            "text" : "Modpack by InfiniteBlock.",
+            "posX" : -198,
+            "posY" : -26,
+            "color" : -1,
+            "alignment" : "bottom_right"
+        },
+        
+        "mojang": {
+            "text" : "Copyright Mojang AB. Do not distribute!",
+            "posX" : -198,
+            "posY" : -16,
+            "color" : -1,
+            "alignment" : "bottom_right"
+        },
+        
+        "version": {
+            "text" : "Mods #modsactive# / #modsloaded#\nMinecraft #mcversion#\nForge #forgeversion#",
+            "posX" : 2,
+            "posY" : -36,
+            "color" : -1,
+            "alignment" : "bottom_left"
+        }
+    },
+	
+	"alignments":
+    {
+        "c1":
+        {
+            "factorWidth" : 0.5,
+            "factorHeight" : 0.7
+        },
+ 
+        "c2":
+        {
+            "factorWidth" : 0.2,
+            "factorHeight" : 0.2
+        }
+    },
+	
+    "other": {
+		"background": {
+			"image" : "mainmenu:bg.png",
+			"mode" : "stretch"
+		}
+    }
+}
