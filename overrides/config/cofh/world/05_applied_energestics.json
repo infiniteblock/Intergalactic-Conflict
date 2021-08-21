@@ -1,0 +1,30 @@
+{
+	"dependencies": "thermalfoundation",
+	"populate": {
+		"certus_inert": {
+			"enabled": "true",
+			"distribution": "uniform",
+			"generator": {
+				"block": [
+					{
+						"name": "appliedenergistics2:quartz_ore"
+					}
+				],
+				"material": "minecraft:stone",
+				"cluster-size": 20
+			},
+			"cluster-count": 2,
+			"chunk-chance": 1,
+			"min-height": 50,
+			"max-height": 70,
+			"retrogen": "true",
+			"biome": "all",
+			"dimension": {
+				"restriction": "whitelist",
+				"value": [
+					111
+				]
+			}
+		}
+	}
+}
