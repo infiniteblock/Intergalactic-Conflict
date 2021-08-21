@@ -230,12 +230,6 @@
             "required": true
         },
         {
-            "alias": "It's the little things (itlt-1.12.x-1.0.4.jar)",
-            "fileID": 3330021,
-            "projectID": 232791,
-            "required": true
-        },
-        {
             "alias": "Just Enough Items (JEI) (jei_1.12.2-4.16.1.302.jar)",
             "fileID": 3043174,
             "projectID": 238222,
@@ -569,6 +563,24 @@
             "alias": "ZeroCore 2 (zerocore-1.12.2-0.1.2.9.jar)",
             "fileID": 3194743,
             "projectID": 247921,
+            "required": true
+        },
+        {
+            "alias": "RandomPatches (Forge) (randompatches-1.12.2-1.22.1.10.jar)",
+            "fileID": 3133651,
+            "projectID": 285612,
+            "required": true
+        },
+        {
+            "alias": "Custom Main Menu (CustomMainMenu-MC1.12.2-2.0.9.1.jar)",
+            "fileID": 2857869,
+            "projectID": 226406,
+            "required": true
+        },
+        {
+            "alias": "Resource Loader (ResourceLoader-MC1.12.1-1.5.3.jar)",
+            "fileID": 2477566,
+            "projectID": 226447,
             "required": true
         }
     ],
