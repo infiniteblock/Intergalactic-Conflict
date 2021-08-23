@@ -512,12 +512,6 @@
             "required": true
         },
         {
-            "alias": "[ANGRY PIXEL] The Betweenlands (TheBetweenlands-3.7.3-universal.jar)",
-            "fileID": 3248202,
-            "projectID": 243363,
-            "required": true
-        },
-        {
             "alias": "Thermal Dynamics (ThermalDynamics-1.12.2-2.5.6.1-universal.jar)",
             "fileID": 2920505,
             "projectID": 227443,
