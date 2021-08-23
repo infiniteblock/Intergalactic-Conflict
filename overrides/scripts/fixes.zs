@@ -55,6 +55,16 @@ mods.thermalexpansion.Pulverizer.removeRecipe(<tropicraft:ore:3>);
 mods.nuclearcraft.manufactory.removeRecipeWithInput(<tropicraft:ore:3>);
 mods.nuclearcraft.melter.removeRecipeWithInput(<tropicraft:ore:3>);
 
+// *** Abyssal Craft Balance
+recipes.remove(<abyssalcraft:silver_key>);
+<abyssalcraft:silver_key>.addTooltop(format.red("Disabled under the Equilibrium act"));
+recipes.remove(<abyssalcraft:gatewaykeyjzh>);
+<abyssalcraft:gatewaykeyjzh>.addTooltop(format.red("Disabled under the Equilibrium act"));
+recipes.remove(<abyssalcraft:gatewaykey>);
+<abyssalcraft:gatewaykey>.addTooltop(format.red("Disabled under the Equilibrium act"));
+recipes.remove(<abyssalcraft:gatewaykeydl>);
+<abyssalcraft:gatewaykeydl>.addTooltop(format.red("Disabled under the Equilibrium act"));
+
 // *** Atum Balance
 recipes.remove(<atum:scarab>);
 <atum:scarab>.addTooltip(format.red("Heard of only in legends..."));

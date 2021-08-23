@@ -7,13 +7,13 @@
 // *** Advanced storage
 // * presses from Mob drops as an alternative to exploration
 // calculation press
-/*
+/*	
 recipes.addShapeless("appliedenergistics2_calculation_press", <appliedenergistics2:material:13>,
 	[	<appliedenergistics2:smooth_sky_stone_chest>,
 		<ore:blockIron>,
 		<ore:crystalPureFluix>,
 		<appliedenergistics2:material:10>,
-		<xreliquary:mob_ingredient:14> ]);
+		<cyberware:brain_upgrades:4> ]);
 
 // engineering press
 recipes.addShapeless("appliedenergistics2_engineering_press", <appliedenergistics2:material:14>,
@@ -21,7 +21,7 @@ recipes.addShapeless("appliedenergistics2_engineering_press", <appliedenergistic
 		<ore:blockIron>,
 		<ore:crystalPureFluix>,
 		<ore:blockDiamond>,
-		<xreliquary:mob_ingredient:10> ]);
+		<cyberware:body_part:1> ]);
 
 // logic press
 recipes.addShapeless("appliedenergistics2_logic_press", <appliedenergistics2:material:15>,
@@ -29,7 +29,7 @@ recipes.addShapeless("appliedenergistics2_logic_press", <appliedenergistics2:mat
 		<ore:blockIron>,
 		<ore:crystalPureFluix>,
 		<ore:blockGold>,
-		<xreliquary:mob_ingredient:7> ]);
+		<opencomputers:material:10> ]);
 
 // silicon press
 recipes.addShapeless("appliedenergistics2_silicon_press", <appliedenergistics2:material:19>,
@@ -37,23 +37,23 @@ recipes.addShapeless("appliedenergistics2_silicon_press", <appliedenergistics2:m
 		<ore:blockIron>,
 		<ore:crystalPureFluix>,
 		<appliedenergistics2:material:5>,
-		<xreliquary:mob_ingredient:3> ]);
+		<cyberware:body_part:2> ]);
 */
 // note: block/panels use circuits to integrate with other mods, while presses remains for storage cells
 // * machines & cables from overworld & betweenlands ore, encourage hull autocrafting, add a touch of gold
 // ME Interface
 recipes.remove(<appliedenergistics2:interface>);
 recipes.addShaped("appliedenergistics2_me_interface", <appliedenergistics2:interface>,
-	[	[<thebetweenlands:green_middle_gem>,      <ore:blockHull2_glass>,              <thebetweenlands:green_middle_gem>],
+	[	[<abyssalcraft:abyingot>,      			  <ore:blockHull2_glass>,              <abyssalcraft:abyingot>],
 		[<appliedenergistics2:material:44>, 	  null,         					   <appliedenergistics2:material:43>],
-		[<thebetweenlands:aqua_middle_gem>,       <ore:blockHull2_glass>,              <thebetweenlands:aqua_middle_gem>] ]);
+		[<abyssalcraft:cpearl>,       			  <ore:blockHull2_glass>,              <abyssalcraft:cpearl>] ]);
 
 // ME Controller
 recipes.remove(<appliedenergistics2:controller>);
 recipes.addShaped("appliedenergistics2_me_controller", <appliedenergistics2:controller>,
-	[	[<thebetweenlands:crimson_middle_gem>,  <ore:circuitElite>,           		 <thebetweenlands:crimson_middle_gem>],
-		[<ore:circuitElite>,                	<appliedenergistics2:material:45>,   <ore:circuitElite>],
-		[<ore:blockHull2_plain>,           	    <ore:circuitElite>,                  <ore:blockHull2_plain>] ]);
+	[	[<abyssalcraft:abyingot>,  <ore:circuitElite>,           		 <abyssalcraft:abyingot>],
+		[<ore:circuitElite>,       <appliedenergistics2:material:45>,   <ore:circuitElite>],
+		[<ore:blockHull2_plain>,   <ore:circuitElite>,                  <ore:blockHull2_plain>] ]);
 
 // Quartz fiber
 recipes.remove(<appliedenergistics2:part:140>);
@@ -69,9 +69,9 @@ recipes.addShaped(<appliedenergistics2:part:140> * 3,
 // ME Glass cable
 recipes.remove(<appliedenergistics2:part:16>);
 recipes.addShaped(<appliedenergistics2:part:16> * 4,
-	[	[null,                              <thebetweenlands:green_middle_gem>,                 null],
+	[	[null,                              <abyssalcraft:ingotnugget>,          null],
 		[<appliedenergistics2:material:8>,  <appliedenergistics2:part:140>,      <appliedenergistics2:material:8>],
-		[null,                              <thebetweenlands:crimson_middle_gem>,               null] ]);
+		[null,                              <abyssalcraft:ingotnugget>,          null] ]);
 
 // * Autocrafting requires to reach Tropics
 // Molecular assembler
@@ -96,11 +96,11 @@ recipes.addShaped(<appliedenergistics2:material:52>,
 		[<tropicraft:eudialyte>,       		<tropicraft:zircon>,        	 	 <tropicraft:eudialyte>] ]);
 
 // * base components progression
-// Illuminated panel requires redstone "chip" and Syrmorite (Betweenlands)
+// Illuminated panel requires redstone "chip" and Abyssalnite nugget.
 recipes.remove(<appliedenergistics2:part:180>);
 recipes.addShaped(<appliedenergistics2:part:180> *3,
 	[	[null,                              <minecraft:glowstone_dust>,          <ore:blockHull1_omnipanel>],
-		[<thebetweenlands:items_misc:11>,   <ore:itemCompressedRedstone>,        <ore:blockHull1_omnipanel>],
+		[<abyssalcraft:ingotnugget>,  	    <ore:itemCompressedRedstone>,        <ore:blockHull1_omnipanel>],
 		[null,                              <minecraft:glowstone_dust>,          <ore:blockHull1_omnipanel>] ]);
 
 // ME Terminal doesn't need gold
