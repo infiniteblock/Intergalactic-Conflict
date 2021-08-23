@@ -1,11 +1,11 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <worldGeneration version="3"
 				 xmlns="http://warpdrive.lemadec.org"
 				 xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 				 xsi:schemaLocation="http://warpdrive.lemadec.org WarpDrive.xsd">
 	
 	<celestialObject id="Hyperspace">
-		<size x="22000" z="22000" />
+		<size x="122000" z="122000" />
 		<name>Hyperspace</name>
 		<description>Your ship warp bubble is your\nonly protection.</description>
 		
@@ -23,7 +23,7 @@
 			<fogFactor red="0.0" green="0.0" blue="0.0" />
 		</skybox>
 		
-		<celestialObject id="solarSystem">
+		<celestialObject id="SolarSystem">
 			<parent>
 				<center x="0" z="0" />
 			</parent>
@@ -37,9 +37,18 @@
 				<generate group="asteroid" ratio="0.00340" />
 				<generate group="asteroids_field" ratio="0.00080" />
 			</dimension>
-			
+				<render red="1.00" green="1.00" blue="0.70" alpha="1.00" texture="mainmenu:space.png" periodU="24500" />
+				<render red="0.10" green="0.95" blue="0.10" alpha="0.15" texture="warpdrive:textures/celestial/cloud_small1.png" periodU="100" periodV="1100" additive="true" />
+				<render red="0.50" green="0.95" blue="0.30" alpha="0.15" texture="warpdrive:textures/celestial/cloud_small2.png" periodU="100" periodV="1100" additive="true" />
+				<render red="0.80" green="0.80" blue="0.90" alpha="0.12" />
+				<render red="0.60" green="0.80" blue="0.90" alpha="0.11" />
 			<skybox>
 				<backgroundColor red="0.0" green="0.0" blue="0.0" />
+				<starBrightnessBase>0.9</starBrightnessBase>
+				<starBrightnessVanilla>0.0</starBrightnessVanilla>
+				<celestialObjectOpacity>1.0</celestialObjectOpacity>
+				<fogColor red="0.0" green="0.0" blue="0.0" />
+				<fogFactor red="0.0" green="0.0" blue="0.0" />
 				<boxTextures
 						 back  ="warpdrive:textures/celestial/skybox-small_blue/back.png"
 						 bottom="warpdrive:textures/celestial/skybox-small_blue/bottom.png"
@@ -47,12 +56,6 @@
 						 left  ="warpdrive:textures/celestial/skybox-small_blue/left.png"
 						 right ="warpdrive:textures/celestial/skybox-small_blue/right.png"
 						 top   ="warpdrive:textures/celestial/skybox-small_blue/top.png" />
-				<boxBrightness>1.0</boxBrightness>
-				<starBrightnessBase>0.9</starBrightnessBase>
-				<starBrightnessVanilla>0.0</starBrightnessVanilla>
-				<celestialObjectOpacity>1.0</celestialObjectOpacity>
-				<fogColor red="0.0" green="0.0" blue="0.0" />
-				<fogFactor red="0.0" green="0.0" blue="0.0" />
 			</skybox>
 			
 			<celestialObject id="solar-sun">
@@ -79,8 +82,7 @@
 				<dimension id="0" isBreathable="true" gravity="normal">
 					<center x="0" z="0" />
 				</dimension>
-				<render red="0.70" green="0.70" blue="0.70" alpha="1.00" texture="warpdrive:textures/celestial/surface_temperate2.png" periodU="8000" periodV="1400" />
-				<render red="0.70" green="0.70" blue="0.70" alpha="0.50" texture="warpdrive:textures/celestial/surface_island1.png" periodV="1400" additive="true" />
+				<render red="0.70" green="0.70" blue="0.70" alpha="1.00" texture="warpdrive:textures/celestial/surface_temperate2.png" />
 				<render red="0.90" green="0.95" blue="1.00" alpha="0.15" texture="warpdrive:textures/celestial/cloud_small1.png" periodU="100" periodV="1100" additive="true" />
 				<render red="0.90" green="0.90" blue="1.00" alpha="0.15" texture="warpdrive:textures/celestial/cloud_medium1.png" periodU="300" periodV="1500" additive="false" />
 				<render red="0.80" green="0.70" blue="1.00" alpha="0.15" texture="warpdrive:textures/celestial/cloud_large1.png" periodU="500" periodV="2100" additive="false" />
@@ -98,8 +100,8 @@
 				<description>Unleash the Dragon.</description>
 				<dimension id="1" isBreathable="true" gravity="normal">
 					<center x="0" z="0" />
-				</dimension>
-				<render red="1.00" green="1.00" blue="1.00" alpha="1.00" texture="minecraft:textures/blocks/end_stone.png" periodU="8000" periodV="1400" />
+				</dimension>				
+				<render red="1.00" green="1.00" blue="1.00" alpha="1.00" texture="minecraft:textures/blocks/end_stone.png" periodU="150" />
 				<render red="0.90" green="1.00" blue="1.00" alpha="0.30" texture="minecraft:textures/blocks/end_stone.png" periodU="143" periodV="171" />
 				<render red="1.00" green="1.00" blue="1.00" alpha="0.25" texture="minecraft:textures/blocks/obsidian.png" periodU="137" periodV="200" />
 				<render red="0.50" green="0.50" blue="0.40" alpha="0.20" />
@@ -116,8 +118,7 @@
 					<center x="0" z="0" />
 				</dimension>
 				<render red="1.00" green="1.00" blue="1.00" alpha="1.00" texture="warpdrive:textures/celestial/surface_magma1.png" periodU="-1247" periodV="-807" />
-				<render red="1.00" green="1.00" blue="0.60" alpha="0.20" texture="minecraft:textures/blocks/netherrack.png" periodU="-21500" />
-				<render red="0.60" green="0.55" blue="0.20" alpha="0.05" texture="warpdrive:textures/celestial/cloud_small2.png" periodU="100" periodV="600" additive="false" />
+				<render red="1.00" green="1.00" blue="1.00" alpha="0.10" texture="minecraft:textures/blocks/netherrack.png" periodU="-21500" />
 				<render red="1.00" green="0.50" blue="0.50" alpha="0.12" />
 				<render red="1.00" green="0.50" blue="0.50" alpha="0.11" />
 				<render red="1.00" green="0.50" blue="0.50" alpha="0.10" />
@@ -151,11 +152,11 @@
 				<dimension id="-4598" isBreathable="true" gravity="normal">
 					<center x="0" z="0" />
 				</dimension>
-				<render red="1.00" green="1.00" blue="0.50" alpha="1.00" texture="nuclearcraft:textures/blocks/dry_earth.png" />
-				<render red="0.50" green="1.00" blue="0.50" alpha="0.30" texture="nuclearcraft:textures/blocks/dry_earth.png" periodU="21500" />
-				<render red="0.30" green="0.40" blue="0.50" alpha="0.12" />
-				<render red="0.30" green="0.40" blue="0.50" alpha="0.11" />
-				<render red="0.30" green="0.40" blue="0.50" alpha="0.10" />
+				<render red="1.00" green="1.00" blue="1.00" alpha="1.00" texture="nuclearcraft:textures/blocks/dry_earth.png" periodV="815" />
+				<render red="1.00" green="1.00" blue="1.00" alpha="0.10" texture="minecraft:textures/blocks/glowstone.png" periodU="24500" />
+				<render red="1.00" green="0.50" blue="0.50" alpha="0.12" />
+				<render red="1.00" green="0.50" blue="0.50" alpha="0.11" />
+				<render red="1.00" green="0.50" blue="0.50" alpha="0.10" />
 			</celestialObject>
 			
 			<celestialObject id="solar-tropics">
@@ -198,25 +199,6 @@
 				<render red="0.40" green="0.50" blue="1.00" alpha="0.08" />
 			</celestialObject>
 			
-			<celestialObject id="solar-betweenlands">
-				<parent>
-					<center x="-3500" z="-3500" />
-				</parent>
-				<size x="1000" z="1000" />
-				<name>BetweenLands</name>
-				<description>Something in the air keeps the parasites away, to say nothing of the local residents.</description>
-				<dimension id="20" isBreathable="false" gravity="normal">
-					<center x="0" z="0" />
-				</dimension>
-				<render red="0.70" green="0.80" blue="0.50" alpha="1.00" texture="warpdrive:textures/celestial/surface_rock3.png" periodU="8000" periodV="1400" additive="false" />
-				<render red="1.00" green="1.00" blue="1.00" alpha="0.30" texture="warpdrive:textures/celestial/cloud_small2.png" periodU="8000" periodV="1400" additive="false" />
-				<render red="1.00" green="1.00" blue="1.00" alpha="0.20" texture="warpdrive:textures/celestial/cloud_large1.png" periodU="-170" periodV="1050" additive="true" />
-				<render red="0.70" green="0.90" blue="0.80" alpha="0.00" texture="warpdrive:textures/celestial/cloud_medium2.png" periodU="-172" periodV="1510" additive="false" />
-				<render red="0.50" green="0.90" blue="1.00" alpha="0.09" />
-				<render red="0.50" green="0.90" blue="1.00" alpha="0.08" />
-				<render red="0.40" green="0.90" blue="1.00" alpha="0.08" />
-			</celestialObject>
-
 			<celestialObject id="solar-lostcity">
 				<parent>
 					<center x="-2700" z="1500" />
@@ -245,7 +227,7 @@
 				<size x="4000" z="4000" />
 				<name>Blackhole</name>
 				<description>Black Hole\nOf Abyss.</description>
-				<dimension id="6" isBreathable="true" gravity="normal">
+				<dimension id="6" isBreathable="false" gravity="legacySpace">
 				<center x="0" z="0" />
 				<provider type="WarpDriveSpace" />
 				<generate group="moon" ratio="0.00076" />
