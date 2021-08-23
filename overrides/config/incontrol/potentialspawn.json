@@ -43,12 +43,6 @@
     "dimension": 4598,
     "mobs": [
       {
-        "mob": "srparasites:beckon_sii",
-        "weight": 10,
-        "groupcountmin": 1,
-        "groupcountmax": 1
-      },
-      {
         "mob": "srparasites:ada_bolster",
         "weight": 15,
         "groupcountmin": 1,
