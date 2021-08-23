@@ -37,21 +37,8 @@
       }
     ]
   },
-  // *** ROIKA ***
-  // *************
-  {
-    "dimension": -500,
-    "mobs": [
-      {
-        "mob": "minecraft:villager_golem",
-        "weight": 12,
-        "groupcountmin": 1,
-        "groupcountmax": 1
-      }
-    ]
-  },
-  // *** VENUS | PARASITE HIVE ***
-  // *****************************
+    // *** VENUS | PARASITE HIVE ***
+    // *****************************
   {
     "dimension": 4598,
     "mobs": [
@@ -168,26 +155,8 @@
         "weight": 26,
         "groupcountmin": 1,
         "groupcountmax": 6
-      },
-      {
-        "mob": "mowziesmobs:naga",
-        "weight": 8,
-        "groupcountmin": 1,
-        "groupcountmax": 1
-      },
-      {
-        "mob": "lycanitesmobs:afrit",
-        "weight": 12,
-        "groupcountmin": 1,
-        "groupcountmax": 1
-      },
-      {
-        "mob": "lycanitesmobs:volcan",
-        "weight": 3,
-        "groupcountmin": 1,
-        "groupcountmax": 1
-      }
-    ]
+      }    
+	  ]
   },
   // *** ATUM ***
   // ************
@@ -203,41 +172,6 @@
       {
         "mob": "srparasites:ada_manducater",
         "weight": 6,
-        "groupcountmin": 2,
-        "groupcountmax": 4
-      }
-    ]
-  },
-  {
-    "dimension": 17,
-    "mobs": [
-      {
-        "mob": "atum:brigand",
-        "weight": 18,
-        "groupcountmin": 3,
-        "groupcountmax": 6
-      },
-      {
-        "mob": "atum:barbarian",
-        "weight": 18,
-        "groupcountmin": 2,
-        "groupcountmax": 4
-      },
-      {
-        "mob": "lycanitesmobs:cryptkeeper",
-        "weight": 24,
-        "groupcountmin": 1,
-        "groupcountmax": 1
-      },
-      {
-        "mob": "lycanitesmobs:roc",
-        "weight": 6,
-        "groupcountmin": 1,
-        "groupcountmax": 2
-      },
-      {
-        "mob": "lycanitesmobs:sutiramu",
-        "weight": 8,
         "groupcountmin": 2,
         "groupcountmax": 4
       }
@@ -262,90 +196,6 @@
       }
     ]
   },
-  {
-    "dimension": -127,
-    "mobs": [
-      {
-        "mob": "mowziesmobs:foliaath",
-        "weight": 13,
-        "groupcountmin": 1,
-        "groupcountmax": 2
-      },
-      {
-        "mob": "lycanitesmobs:feradon",
-        "weight": 22,
-        "groupcountmin": 3,
-        "groupcountmax": 6
-      },
-      {
-        "mob": "lycanitesmobs:arisaur",
-        "weight": 6,
-        "groupcountmin": 2,
-        "groupcountmax": 4
-      },
-      {
-        "mob": "lycanitesmobs:aspid",
-        "weight": 10,
-        "groupcountmin": 1,
-        "groupcountmax": 3
-      },
-      {
-        "mob": "lycanitesmobs:chupacabra",
-        "weight": 10,
-        "groupcountmin": 1,
-        "groupcountmax": 2
-      },
-      {
-        "mob": "lycanitesmobs:herma",
-        "weight": 4,
-        "groupcountmin": 2,
-        "groupcountmax": 4
-      },
-      {
-        "mob": "lycanitesmobs:triffid",
-        "weight": 1,
-        "groupcountmin": 1,
-        "groupcountmax": 1
-      }
-    ]
-  },
-// *** GLACIA ***
-// **************
-  {
-    "dimension": 111,
-    "mobs": [
-      {
-        "mob": "mowziesmobs:frostmaw",
-        "weight": 8,
-        "groupcountmin": 1,
-        "groupcountmax": 1
-      },
-      {
-        "mob": "srparasites:ada_longarms",
-        "weight": 16,
-        "groupcountmin": 1,
-        "groupcountmax": 1
-      },
-      {
-        "mob": "srparasites:ada_yelloweye",
-        "weight": 10,
-        "groupcountmin": 1,
-        "groupcountmax": 3
-      },
-      {
-        "mob": "lycanitesmobs:maug",
-        "weight": 24,
-        "groupcountmin": 5,
-        "groupcountmax": 6
-      },
-      {
-        "mob": "lycanitesmobs:frostweaver",
-        "weight": 14,
-        "groupcountmin": 1,
-        "groupcountmax": 1
-      }
-    ]
-  },
   // *** HILUND ***
   // **************
   {
@@ -362,24 +212,6 @@
         "weight": 8,
         "groupcountmin": 1,
         "groupcountmax": 1
-      },
-      {
-        "mob": "lycanitesmobs:geist",
-        "weight": 26,
-        "groupcountmin": 1,
-        "groupcountmax": 1
-      },
-      {
-        "mob": "lycanitesmobs:kobold",
-        "weight": 6,
-        "groupcountmin": 1,
-        "groupcountmax": 1
-      },
-      {
-        "mob": "lycanitesmobs:calpod",
-        "weight": 14,
-        "groupcountmin": 2,
-        "groupcountmax": 5
       }
     ]
   }

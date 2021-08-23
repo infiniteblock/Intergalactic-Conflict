@@ -266,51 +266,6 @@
     "onjoin": true,
     "result": "deny"
   },
-  {
-    "dimension": -1,
-    "mob": "mowziesmobs:naga",
-    "block": ["minecraft:netherrack","minecraft:soul_sand","minecraft:grass"],
-    "maxcount": 6,
-    "minheight": 60,
-    "seesky": true,
-    "onjoin": true,
-    "result": "allow"
-  },
-  {
-    "dimension": -1,
-    "mob": "mowziesmobs:naga",
-    "onjoin": true,
-    "result": "deny"
-  },
-  {
-    "dimension": -1,
-    "mob": "lycanitesmobs:afrit",
-    "block": ["minecraft:netherrack","minecraft:soul_sand"],
-    "maxcount": 12,
-    "onjoin": true,
-    "result": "allow"
-  },
-  {
-    "dimension": -1,
-    "mob": "lycanitesmobs:afrit",
-    "onjoin": true,
-    "result": "deny"
-  },
-  {
-    "dimension": -1,
-    "mob": "lycanitesmobs:volcan",
-    "block": "minecraft:nether_brick",
-    "maxcount": 2,
-    "onjoin": true,
-    "result": "allow",
-    "angry": true
-  },
-  {
-    "dimension": -1,
-    "mob": "lycanitesmobs:volcan",
-    "onjoin": true,
-    "result": "deny"
-  },
   // *** ATUM ***
   // ************
   {
@@ -369,53 +324,6 @@
     "onjoin": true,
     "result": "deny"
   },
-  {
-    "dimension": 17,
-    "mob": "lycanitesmobs:cryptkeeper",
-    "block": ["atum:limestone_brick_large","atum:limestone","atum:limestone_brick_carved","atum:sand_layer","atum:limestone_brick_small"],
-    "maxcount": 30,
-    "seesky": false,
-    "onjoin": true,
-    "result": "allow"
-  },
-  {
-    "dimension": 17,
-    "mob": "lycanitesmobs:cryptkeeper",
-    "onjoin": true,
-    "result": "deny"
-  },
-  {
-    "dimension": 17,
-    "mob": "lycanitesmobs:roc",
-    "block": ["atum:sand","atum:sand_layer"],
-    "maxcount": 6,
-    "minheight": 65,
-    "seesky": true,
-    "onjoin": true,
-    "result": "allow",
-    "angry": true
-  },
-  {
-    "dimension": 17,
-    "mob": "lycanitesmobs:roc",
-    "onjoin": true,
-    "result": "deny"
-  },
-  {
-    "dimension": 17,
-    "mob": "lycanitesmobs:sutiramu",
-    "block": ["atum:sand","atum:sand_layer"],
-    "maxcount": 18,
-    "onjoin": true,
-    "angry": true,
-    "result": "allow"
-  },
-  {
-    "dimension": 17,
-    "mob": "lycanitesmobs:sutiramu",
-    "onjoin": true,
-    "result": "deny"
-  },
   // *** TROPICS*** 
   // **************
   {
@@ -443,86 +351,6 @@
   {
     "dimension": -127,
     "mob": "srparasites:ada_longarms",
-    "onjoin": true,
-    "result": "deny"
-  },
-  {
-    "dimension": -127,
-    "mob": "mowziesmobs:foliaath",
-    "block": "minecraft:grass",
-    "maxcount": 12,
-    "onjoin": true,
-    "result": "allow"
-  },
-  {
-    "dimension": -127,
-    "mob": "mowziesmobs:foliaath",
-    "onjoin": true,
-    "result": "deny"
-  },
-  {
-    "dimension": -127,
-    "mob": "lycanitesmobs:feradon",
-    "block": "minecraft:grass",
-    "maxcount": 24,
-    "onjoin": true,
-    "result": "allow"
-  },
-  {
-    "dimension": -127,
-    "mob": "lycanitesmobs:arisaur",
-    "block": "minecraft:grass",
-    "maxcount": 10,
-    "onjoin": true,
-    "result": "allow"
-  },
-  {
-    "dimension": -127,
-    "mob": "lycanitesmobs:aspid",
-    "block": "tropicraft:leaves",
-    "maxcount": 12,
-    "seesky": false,
-    "onjoin": true,
-    "result": "allow"
-  },
-  {
-    "dimension": -127,
-    "mob": "lycanitesmobs:chupacabra",
-    "block": "tropicraft:sand",
-    "maxcount": 6,
-    "onjoin": true,
-    "result": "allow"
-  },
-  {
-    "dimension": -127,
-    "mob": "lycanitesmobs:herma",
-    "block": "tropicraft:sand",
-    "maxcount": 6,
-    "onjoin": true,
-    "result": "allow"
-  },
-  {
-    "dimension": -127,
-    "mob": "lycanitesmobs:triffid",
-    "block": "tropicraft:leaves",
-    "maxcount": 8,
-    "seesky": false,
-    "onjoin": true,
-    "result": "allow"
-  },
-  // ** GLACIA ***
-  // *************
-  {
-    "dimension": 111,
-    "mob": "mowziesmobs:frostmaw",
-    "block": ["minecraft:snow_layer","minecraft:snow"],
-    "maxcount": 6,
-    "onjoin": true,
-    "result": "allow"
-  },
-  {
-    "dimension": 111,
-    "mob": "mowziesmobs:frostmaw",
     "onjoin": true,
     "result": "deny"
   },
@@ -555,22 +383,6 @@
     "onjoin": true,
     "result": "deny"
   },
-  {
-    "dimension": 111,
-    "mob": "lycanitesmobs:maug",
-    "block": ["minecraft:snow_layer","minecraft:snow"],
-    "maxcount": 20,
-    "onjoin": true,
-    "result": "allow"
-  },
-  {
-    "dimension": 111,
-    "mob": "lycanitesmobs:frostweaver",
-    "block": ["minecraft:packed_ice","minecraft:snow"],
-    "maxcount": 8,
-    "onjoin": true,
-    "result": "allow"
-  },
   // ** HILUND ***
   // *************
   {
@@ -600,43 +412,6 @@
   {
     "dimension": 112,
     "mob": "srparasites:warden",
-    "onjoin": true,
-    "result": "deny"
-  },
-  {
-    "dimension": 112,
-    "mob": "lycanitesmobs:geist",
-    "block": ["minecraft:stonebrick","minecraft:stained_hardened_clay","minecraft:double_stone_slab","minecraft:quartz_block"],
-    "maxcount": 28,
-    "maxlight": 12,
-    "seesky": false,
-    "onjoin": true,
-    "result": "allow"
-  },
-  {
-    "dimension": 112,
-    "mob": "lycanitesmobs:kobold",
-    "block": ["minecraft:stonebrick","minecraft:stained_hardened_clay","minecraft:double_stone_slab","minecraft:quartz_block"],
-    "maxcount": 16,
-    "onjoin": true,
-    "angry": true,
-    "result": "allow"
-  },
-  {
-    "dimension": 112,
-    "mob": "lycanitesmobs:calpod",
-    "block": ["nuclearcraft:dry_earth","minecraft:stonebrick","minecraft:stained_hardened_clay","minecraft:double_stone_slab","minecraft:quartz_block"],
-    "maxcount": 15,
-    "maxheight": 100,
-    "seesky": true,
-    "onjoin": true,
-    "result": "allow"
-  },
-  // *** Global Lycanites Mobs deny ***
-  // This needs to be at the bottom to allow specific spawns.
-  {
-    "mod": "lycanitesmobs",
-    "dimension": ["0","20","17","-127","-1","1","111","112","4598"],
     "onjoin": true,
     "result": "deny"
   }
