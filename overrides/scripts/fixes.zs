@@ -57,13 +57,13 @@ mods.nuclearcraft.melter.removeRecipeWithInput(<tropicraft:ore:3>);
 
 // *** Abyssal Craft Balance
 recipes.remove(<abyssalcraft:silver_key>);
-<abyssalcraft:silver_key>.addTooltop(format.red("Disabled under the Equilibrium act"));
+<abyssalcraft:silver_key>.addTooltip(format.red("Disabled under the Equilibrium act"));
 recipes.remove(<abyssalcraft:gatewaykeyjzh>);
-<abyssalcraft:gatewaykeyjzh>.addTooltop(format.red("Disabled under the Equilibrium act"));
+<abyssalcraft:gatewaykeyjzh>.addTooltip(format.red("Disabled under the Equilibrium act"));
 recipes.remove(<abyssalcraft:gatewaykey>);
-<abyssalcraft:gatewaykey>.addTooltop(format.red("Disabled under the Equilibrium act"));
+<abyssalcraft:gatewaykey>.addTooltip(format.red("Disabled under the Equilibrium act"));
 recipes.remove(<abyssalcraft:gatewaykeydl>);
-<abyssalcraft:gatewaykeydl>.addTooltop(format.red("Disabled under the Equilibrium act"));
+<abyssalcraft:gatewaykeydl>.addTooltip(format.red("Disabled under the Equilibrium act"));
 
 // *** Atum Balance
 recipes.remove(<atum:scarab>);
