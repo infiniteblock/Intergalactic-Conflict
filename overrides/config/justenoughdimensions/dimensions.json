@@ -5,124 +5,32 @@
   },
   "dimensions": [
     {
-      "dim": -500,
-      "override": true,
-      "biome": "biomesoplenty:grove",
-      "dimensiontype": {
-        "id": -500,
-        "name": "Roika",
-        "suffix": "dim_-500",
-        "keeploaded": false,
-        "worldprovider": "WorldProviderSurfaceJED"
-      },
-      "worldinfo": {
-        "jed": {
-          "CustomDayCycle": true,
-          "DayLength": 16000,
-          "NightLength": 6000
-        }
-      },
-      "worldinfo_onetime": {
-        "generatorName": "RTG",
-        "RandomSeed": 5450064435555506562,
-        "SpawnX": 0,
-        "SpawnZ": 0,
-        "GameRules": {
-          "spawnRadius": "0"
-        }
-      }
-    },
-    {
       "dim": 6,
       "dimensiontype": {
         "id": 6,
-        "name": "Real Name Dim 6",
-        "suffix": "_dim6",
+        "name": "Black Hole",
+        "suffix": "dim6",
         "keeploaded": true,
         "worldprovider": "cr0s.warpdrive.world.SpaceWorldProvider"
       }
     },
-    {
-      "dim": 20,
-      "override": true,
-      "worldinfo_onetime": {
-        "keeploaded": true
-      }
-    },
-    {
-      "dim": 107,
-      "dimensiontype": {
-        "id": 107,
-        "name": "Wasted",
-        "suffix": "dim_107",
-        "keeploaded": false,
-        "worldprovider": "WorldProviderSurfaceJED"
-      },
-      "worldinfo_onetime": {
-        "generatorName": "flat",
-        "generatorOptions": "3;minecraft:air;127;",
-        "DayTime": 6000,
-        "GameRules": {
-          "doDaylightCycle": "true"
-        }
-      }
-    },
-    {
-      "dim": 111,
-      "override": true,
-      "biome": "minecraft:mutated_ice_flats",
-      "dimensiontype": {
-        "id": 111,
-        "name": "Glacia",
-        "suffix": "dim_111",
-        "keeploaded": false,
-        "worldprovider": "WorldProviderSurfaceJED"
-      },
-      "worldinfo": {
-        "jed": {
-          "SkyColor": "c9e523",
-          "FogColor": "afcb08",
-          "CloudColor": "403b17"
-        },
-        "raining": true
-      },
-      "worldinfo_onetime": {
-        "generatorName": "RTG",
-        "DayTime": 6000,
-        "GameRules": {
-          "doDaylightCycle": "true"
-        }
-      }
-    },
-    {
-      "dim": 112,
-      "override": true,
-      "worldinfo": {
-        "jed": {
-          "SkyColor": "c9e523",
-          "FogColor": "afcb08",
-          "CloudColor": "403b17"
-        }
-      }
-    },
-    {
-      "dim": 133,
-      "override": true,
-      "dimensiontype": {
-        "id": 133,
-        "name": "test",
-        "suffix": "t",
-        "keeploaded": true,
-        "worldprovider": "cr0s.warpdrive.world.SpaceWorldProvider"
-      }
-    },
-    {
+	{
+		"dim": -101,
+		"dimensiontype": {
+        "id": -101,
+        "name": "SolarSystem",
+        "suffix": "SolarSystem",
+		"keeploaded": true,
+		"override": false
+		}
+	},
+   {
       "dim": 4598,
       "override": true,
       "biome": "srparasites:biome_parasite",
       "dimensiontype": {
         "id": 4598,
-        "name": "Venus",
+        "name": "SCP Wasteland",
         "suffix": "dim_4598",
         "keeploaded": false,
         "worldprovider": "WorldProviderSurfaceJED"
