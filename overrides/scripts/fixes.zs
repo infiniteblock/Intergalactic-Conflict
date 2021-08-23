@@ -59,14 +59,6 @@ mods.nuclearcraft.melter.removeRecipeWithInput(<tropicraft:ore:3>);
 recipes.remove(<atum:scarab>);
 <atum:scarab>.addTooltip(format.red("Heard of only in legends..."));
 
-// *** Betweenlands Balance
-recipes.remove(<thebetweenlands:swamp_talisman:0>);
-mods.jei.JEI.removeAndHide(<thebetweenlands:swamp_talisman:1>);
-mods.jei.JEI.removeAndHide(<thebetweenlands:swamp_talisman:2>);
-mods.jei.JEI.removeAndHide(<thebetweenlands:swamp_talisman:3>);
-mods.jei.JEI.removeAndHide(<thebetweenlands:swamp_talisman:4>);
-<thebetweenlands:swamp_talisman:0>.addTooltip(format.red("Heard of only in legends..."));
-
 // *** First start balance (roika)
 recipes.remove(<thermalexpansion:dynamo:0>);
 recipes.remove(<warpdrive:component:14>);
