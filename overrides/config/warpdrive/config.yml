@@ -749,8 +749,8 @@ ship {
     I:size_max_per_side_by_tier <
         127
         24
-        48
         96
+        250
      >
 
     # Maximum ship mass (in blocks) to jump on a planet
