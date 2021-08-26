@@ -1,7 +1,7 @@
 ![IC Banner](https://i.imgur.com/OkQNl2J.jpg)
 
 # Intergalactic Conflict - A 1.12.2 modpack Built around WarpDrive and Space.
-**Discord: https://discord.gg/hQyAEZV **
+**Discord: https://discord.gg/hQyAEZV
 
 **This modpack is currently in alpha stages.**
 Intergalactic Conflict is built around Space exploration and PVP, We have currently have 14 Dimension's to explore and will be adding ALOT of space debris for you to raid and explore!. The goal is to live on your ship's not on planets, Frigate cores are around (Length X Width X Height) 250x96x96 Corvettes 125x48x48 Shuttles 24x24x24 - This may change players who frequently crash there ship's into asteroid's will be punished.
