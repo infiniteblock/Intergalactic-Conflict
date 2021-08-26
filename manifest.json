@@ -134,14 +134,14 @@
             "required": true
         },
         {
-            "alias": "CraftTweaker (CraftTweaker2-1.12-4.1.20.658.jar)",
-            "fileID": 3432237,
+            "alias": "CraftTweaker (CraftTweaker2-1.12-4.1.20.660.jar)",
+            "fileID": 3435328,
             "projectID": 239197,
             "required": true
         },
         {
-            "alias": "CreativeCore (CreativeCore_v1.10.62_mc1.12.2.jar)",
-            "fileID": 3419979,
+            "alias": "CreativeCore (CreativeCore_v1.10.63_mc1.12.2.jar)",
+            "fileID": 3437866,
             "projectID": 257814,
             "required": true
         },
@@ -197,12 +197,6 @@
             "alias": "Foam\u200bFix (foamfix-0.10.14-1.12.2.jar)",
             "fileID": 3327893,
             "projectID": 278494,
-            "required": true
-        },
-        {
-            "alias": "Hwyla (Hwyla-1.8.26-B41_1.12.2.jar)",
-            "fileID": 2568751,
-            "projectID": 253449,
             "required": true
         },
         {
@@ -575,6 +569,42 @@
             "alias": "Resource Loader (ResourceLoader-MC1.12.1-1.5.3.jar)",
             "fileID": 2477566,
             "projectID": 226447,
+            "required": true
+        },
+        {
+            "alias": "TOP Addons (topaddons-1.12.2-1.13.0.jar)",
+            "fileID": 2887479,
+            "projectID": 247111,
+            "required": true
+        },
+        {
+            "alias": "The One Probe (theoneprobe-1.12-1.4.28.jar)",
+            "fileID": 2667280,
+            "projectID": 245211,
+            "required": true
+        },
+        {
+            "alias": "Schematica (Schematica-1.12.2-1.8.0.169-universal.jar)",
+            "fileID": 2554100,
+            "projectID": 225603,
+            "required": true
+        },
+        {
+            "alias": "LunatriusCore (LunatriusCore-1.12.2-1.2.0.42-universal.jar)",
+            "fileID": 2489549,
+            "projectID": 225605,
+            "required": true
+        },
+        {
+            "alias": "WorldEdit (worldedit-forge-mc1.12.2-6.1.10-dist.jar)",
+            "fileID": 2941712,
+            "projectID": 225608,
+            "required": true
+        },
+        {
+            "alias": "Woot (woot-1.12.2-1.4.11.jar)",
+            "fileID": 2712670,
+            "projectID": 244049,
             "required": true
         }
     ],
