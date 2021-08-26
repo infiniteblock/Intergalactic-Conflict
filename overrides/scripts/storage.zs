@@ -1,5 +1,3 @@
-
-
 // *** Portable storage
 // @TODO update cost of basic satchel?
 // progression of material storage
@@ -7,7 +5,7 @@
 // *** Advanced storage
 // * presses from Mob drops as an alternative to exploration
 // calculation press
-/*	
+
 recipes.addShapeless("appliedenergistics2_calculation_press", <appliedenergistics2:material:13>,
 	[	<appliedenergistics2:smooth_sky_stone_chest>,
 		<ore:blockIron>,
@@ -38,7 +36,7 @@ recipes.addShapeless("appliedenergistics2_silicon_press", <appliedenergistics2:m
 		<ore:crystalPureFluix>,
 		<appliedenergistics2:material:5>,
 		<cyberware:body_part:2> ]);
-*/
+
 // note: block/panels use circuits to integrate with other mods, while presses remains for storage cells
 // * machines & cables from overworld & betweenlands ore, encourage hull autocrafting, add a touch of gold
 // ME Interface
@@ -51,7 +49,7 @@ recipes.addShaped("appliedenergistics2_me_interface", <appliedenergistics2:inter
 // ME Controller
 recipes.remove(<appliedenergistics2:controller>);
 recipes.addShaped("appliedenergistics2_me_controller", <appliedenergistics2:controller>,
-	[	[<abyssalcraft:abyingot>,  <ore:circuitElite>,           		 <abyssalcraft:abyingot>],
+	[	[<tropicraft:zircon>,	   <ore:circuitElite>,           		<tropicraft:zircon>],
 		[<ore:circuitElite>,       <appliedenergistics2:material:45>,   <ore:circuitElite>],
 		[<ore:blockHull2_plain>,   <ore:circuitElite>,                  <ore:blockHull2_plain>] ]);
 
@@ -69,38 +67,38 @@ recipes.addShaped(<appliedenergistics2:part:140> * 3,
 // ME Glass cable
 recipes.remove(<appliedenergistics2:part:16>);
 recipes.addShaped(<appliedenergistics2:part:16> * 4,
-	[	[null,                              <abyssalcraft:ingotnugget>,          null],
+	[	[null,                              <tropicraft:zircon>,         		 null],
 		[<appliedenergistics2:material:8>,  <appliedenergistics2:part:140>,      <appliedenergistics2:material:8>],
-		[null,                              <abyssalcraft:ingotnugget>,          null] ]);
+		[null,                              <tropicraft:zircon>,       		     null] ]);
 
 // * Autocrafting requires to reach Tropics
 // Molecular assembler
 recipes.remove(<appliedenergistics2:molecular_assembler>);
 recipes.addShaped(<appliedenergistics2:molecular_assembler>,
-	[	[<tropicraft:zircon>,       		<ore:blockHull3_glass>,              <tropicraft:zircon>],
-		[<appliedenergistics2:material:44>, <thermalfoundation:upgrade:3>,       <appliedenergistics2:material:43>],
-		[<tropicraft:zircon>,       		<ore:blockHull3_glass>,              <tropicraft:zircon>] ]);
+	[	[<ore:ingotAbyssalnite>,       			<ore:blockHull3_glass>,              <ore:ingotAbyssalnite>],
+		[<appliedenergistics2:material:44>, 	<thermalfoundation:upgrade:3>,       <appliedenergistics2:material:43>],
+		[null,       							<ore:blockHull3_glass>,              null] ]);
 
 // Crafting unit
 recipes.remove(<appliedenergistics2:crafting_unit>);
 recipes.addShaped(<appliedenergistics2:crafting_unit>,
-	[	[<tropicraft:zircon>,      		 	<ore:circuitElite>,                  <tropicraft:zircon>],
+	[	[<ore:ingotAbyssalnite>,      		<ore:circuitElite>,                  <ore:ingotAbyssalnite>],
 		[<appliedenergistics2:part:76>,     null,                                <appliedenergistics2:part:76>],
-		[<tropicraft:zircon>,       		<ore:circuitElite>,                  <tropicraft:zircon>] ]);
+		[null,       		<ore:circuitElite>,                  null] ]);
 
 // Blank pattern
 recipes.remove(<appliedenergistics2:material:52>);
 recipes.addShaped(<appliedenergistics2:material:52>,
 	[	[<ore:blockHull2_omnipanel>,        <ore:dustFluix>,                     <ore:blockHull2_omnipanel>],
 		[<ore:dustFluix>,                   <appliedenergistics2:material:1>,    <ore:dustFluix>],
-		[<tropicraft:eudialyte>,       		<tropicraft:zircon>,        	 	 <tropicraft:eudialyte>] ]);
+		[<tropicraft:eudialyte>,       		null,        	 					 <tropicraft:eudialyte>] ]);
 
 // * base components progression
-// Illuminated panel requires redstone "chip" and Abyssalnite nugget.
+// Illuminated panel requires redstone "chip" and Zircon Gem.
 recipes.remove(<appliedenergistics2:part:180>);
 recipes.addShaped(<appliedenergistics2:part:180> *3,
 	[	[null,                              <minecraft:glowstone_dust>,          <ore:blockHull1_omnipanel>],
-		[<abyssalcraft:ingotnugget>,  	    <ore:itemCompressedRedstone>,        <ore:blockHull1_omnipanel>],
+		[<ore:gemZircon>,			  	    <ore:itemCompressedRedstone>,        <ore:blockHull1_omnipanel>],
 		[null,                              <minecraft:glowstone_dust>,          <ore:blockHull1_omnipanel>] ]);
 
 // ME Terminal doesn't need gold
@@ -137,7 +135,7 @@ recipes.addShaped(<appliedenergistics2:io_port>,
 		[<appliedenergistics2:drive>,       <appliedenergistics2:part:16>,       <appliedenergistics2:drive>],
 		[<nuclearcraft:alloy:6>,            <appliedenergistics2:material:22>,   <nuclearcraft:alloy:6>] ]);
  
-// * storage cells
+// * storage cells Item's.
 // Cell housing from gold/money for good connectivity
 recipes.remove(<appliedenergistics2:material:39>);
 recipes.addShaped(<appliedenergistics2:material:39>,
@@ -176,3 +174,37 @@ recipes.addShaped(<appliedenergistics2:storage_cell_64k>,
 		[<techguns:itemshared:85>,               <techguns:itemshared:85>,          <techguns:itemshared:85>] ]);
 recipes.addShapeless(<appliedenergistics2:storage_cell_64k>,
 	[	<appliedenergistics2:material:38>, <appliedenergistics2:material:39>]);
+
+// * storage cells Fluid's.
+
+recipes.remove(<appliedenergistics2:fluid_storage_cell_1k>);
+recipes.addShaped(<appliedenergistics2:fluid_storage_cell_1k>,
+	[	[<ore:blockHull2_glass>,            	 <ore:dustElectrum>,                <ore:blockHull2_glass>],
+		[<ore:dustElectrum>,               		 <appliedenergistics2:material:54>, <ore:dustElectrum>],
+		[<techguns:itemshared:85>,               <techguns:itemshared:85>,          <techguns:itemshared:85>] ]);
+recipes.addShapeless(<appliedenergistics2:fluid_storage_cell_1k>,
+	[	<appliedenergistics2:material:54>, <appliedenergistics2:material:39> ]);
+
+recipes.remove(<appliedenergistics2:fluid_storage_cell_4k>);
+recipes.addShaped(<appliedenergistics2:fluid_storage_cell_4k>,
+	[	[<ore:blockHull2_glass>,            	 <ore:dustElectrum>,                <ore:blockHull2_glass>],
+		[<ore:dustElectrum>,               		 <appliedenergistics2:material:55>, <ore:dustElectrum>],
+		[<techguns:itemshared:85>,               <techguns:itemshared:85>,          <techguns:itemshared:85>] ]);
+recipes.addShapeless(<appliedenergistics2:fluid_storage_cell_4k>,
+	[	<appliedenergistics2:material:55>, <appliedenergistics2:material:39> ]);
+
+recipes.remove(<appliedenergistics2:fluid_storage_cell_16k>);
+recipes.addShaped(<appliedenergistics2:fluid_storage_cell_16k>,
+	[	[<ore:blockHull2_glass>,            	 <ore:dustElectrum>,                <ore:blockHull2_glass>],
+		[<ore:dustElectrum>,              		 <appliedenergistics2:material:56>, <ore:dustElectrum>],
+		[<techguns:itemshared:85>,               <techguns:itemshared:85>,          <techguns:itemshared:85>] ]);
+recipes.addShapeless(<appliedenergistics2:fluid_storage_cell_16k>,
+	[	<appliedenergistics2:material:56>, <appliedenergistics2:material:39>]);
+
+recipes.remove(<appliedenergistics2:fluid_storage_cell_64k>);
+recipes.addShaped(<appliedenergistics2:fluid_storage_cell_64k>,
+	[	[<ore:blockHull2_glass>,           		 <ore:dustElectrum>,                <ore:blockHull2_glass>],
+		[<ore:dustElectrum>,              		 <appliedenergistics2:material:57>, <ore:dustElectrum>],
+		[<techguns:itemshared:85>,               <techguns:itemshared:85>,          <techguns:itemshared:85>] ]);
+recipes.addShapeless(<appliedenergistics2:fluid_storage_cell_64k>,
+	[	<appliedenergistics2:material:57>, <appliedenergistics2:material:39>]);
