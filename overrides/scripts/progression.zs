@@ -65,11 +65,11 @@ recipes.addShaped("mekanism_digital_miner", <mekanism:machineblock:4>,
 // *** Modular armor
 // MPS Tinker Table from steel large plate, rare rods, Coralium Pearl (abyssalcraft), Transmutation Gem (abyssalcraft), advanced casing or signalum upgrade kit
 recipes.remove(<powersuits:tinkertable>);
-var blackSteelThoughRod = <tconstruct:tough_tool_rod>.withTag({Material: "black_steel"});
+var ThoughRod = <tconstruct:tough_tool_rod>.withTag({Material: "tough"});
 recipes.addShaped(<powersuits:tinkertable>,
 	[	[<ore:materialCoraliumPearl>,   <abyssalcraft:transmutationgem>, <ore:materialCoraliumPearl>],
-		[blackSteelThoughRod,           <thermalfoundation:upgrade:33>,  blackSteelThoughRod],
-		[blackSteelThoughRod,           null,                            blackSteelThoughRod] ]);
+		[ThoughRod,           <thermalfoundation:upgrade:33>,  ThoughRod],
+		[ThoughRod,           null,                            ThoughRod] ]);
 
 // Wiring from gold and copper
 recipes.remove(<powersuits:powerarmorcomponent:0>);
